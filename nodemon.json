@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER" : "hughkohl",
+        "MONGO_PASSWORD": "*Tiger13",
+        "MONGO_DB": "job_scrape"
+    }
+}
