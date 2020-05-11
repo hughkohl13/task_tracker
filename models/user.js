@@ -11,6 +11,7 @@ const userSchema = new Schema({
         type: String,
         required: true
     },
+    // store a list of event ids
     createdJobs: [
         {
             type: Schema.Types.ObjectId,
