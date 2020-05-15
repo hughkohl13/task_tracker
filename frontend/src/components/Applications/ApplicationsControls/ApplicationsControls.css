@@ -1,0 +1,23 @@
+.applications-control {
+    text-align: center;
+    padding: 0.5rem;
+  }
+  
+  .applications-control button {
+    font: inherit;
+    border: none;
+    background: transparent;
+    color: black;
+    padding: 0.25rem 3rem;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+  }
+  
+  .applications-control button.active {
+    border-bottom-color: orange;
+    color: orange;
+  }
+  
+  .applications-control button:focus {
+    outline: none;
+  }
